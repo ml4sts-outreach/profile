@@ -11,8 +11,8 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="resources/examples/" />
 <meta property="og:site_name" content="Profile Website with gh-pages" />
-<meta property="og:description" content="Main page: About: About me: Example text, italics and bold in markdown line breaks are ignored so content like this will render all as one paragraph unless there are two spaces at the end (like the..." />
-<meta name="description" content="Main page: About: About me: Example text, italics and bold in markdown line breaks are ignored so content like this will render all as one paragraph unless there are two spaces at the end (like the..." />
+<meta property="og:description" content="These are examples that you can copy paste and use in your site. You can also use the gallery and look at their source to see more ways to do this. Main page: About: Project Grid:" />
+<meta name="description" content="These are examples that you can copy paste and use in your site. You can also use the gallery and look at their source to see more ways to do this. Main page: About: Project Grid:" />
 
     <title>Example Formatting &#8212; Profile Website with gh-pages</title>
   
@@ -51,6 +51,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'resources/examples';</script>
     <link rel="index" title="Index" href="../../genindex/" />
     <link rel="search" title="Search" href="../../search/" />
+    <link rel="next" title="Changing Host" href="../host/" />
     <link rel="prev" title="Formatting" href="../formatting/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -285,8 +286,8 @@ document.write(`
 <li class="toctree-l1"><a class="reference internal" href="../codespaces/">GitHub CodeSpaces</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../formatting/">Formatting</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Example Formatting</a></li>
-
-
+<li class="toctree-l1"><a class="reference internal" href="../host/">Changing Host</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/">Under the hood</a></li>
 </ul>
 </div>
 </nav></div>
@@ -346,6 +347,8 @@ document.write(`
                   
 <section class="tex2jax_ignore mathjax_ignore" id="example-formatting">
 <h1>Example Formatting<a class="headerlink" href="#example-formatting" title="Link to this heading">#</a></h1>
+<p>These are examples that you can copy paste and use in your site.</p>
+<p>You can also use the gallery and look at their source to see more ways to do this.</p>
 <section id="main-page">
 <h2>Main page<a class="headerlink" href="#main-page" title="Link to this heading">#</a></h2>
 <div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gh"># Page Title</span>
@@ -371,60 +374,52 @@ page_file_name
 </section>
 <section id="about">
 <h2>About<a class="headerlink" href="#about" title="Link to this heading">#</a></h2>
-</section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="about-me">
-<h1>About me<a class="headerlink" href="#about-me" title="Link to this heading">#</a></h1>
-<p>Example text, <em>italics</em> and <strong>bold</strong>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gh"># About me</span>
+
+
+Example text, <span class="ge">*italics*</span> and <span class="gs">**bold**</span>
 in markdown line breaks are ignored
-so content like this will render all as one paragraph<br />
-unless there are two spaces at the end (like the line above)</p>
-<p><a class="reference internal" href="#with/the/url/here"><span class="xref myst">links look like this</span></a> for example: see more examples in the <a class="reference external" href="https://jupyterbook.org/en/stable/reference/cheatsheet.html">myst markdown syntax cheatsheet</a></p>
-<section id="subheading-example">
-<h2>subheading example<a class="headerlink" href="#subheading-example" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>starting lines like this</p></li>
-<li><p>makes them into a bulleted</p></li>
-<li><p>list when your page builds</p></li>
-</ul>
+so content like this will render all as one paragraph  
+unless there are two spaces at the end (like the line above)
+
+[<span class="nt">links look like this</span>](<span class="na">with/the/url/here</span>) for example: see more examples in the [<span class="nt">myst markdown syntax cheatsheet</span>](<span class="na">https://jupyterbook.org/en/stable/reference/cheatsheet.html</span>)
+
+<span class="gu">## subheading example</span>
+
+<span class="k">-</span><span class="w"> </span>starting lines like this
+<span class="k">-</span><span class="w"> </span>makes them into a bulleted 
+<span class="k">-</span><span class="w"> </span>list when your page builds
+</pre></div>
+</div>
 </section>
 <section id="project-grid">
 <h2>Project Grid<a class="headerlink" href="#project-grid" title="Link to this heading">#</a></h2>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gh"># Project Grid</span>
+
+&lt;!-- this creates a grid with 3 columns --&gt;
+::::{grid} 3
+
+:::{grid-item-card} Title
+
+body of a plain card
++++
+footer
+:::
+
+:::{grid-item-card} Title 2
+
+body 2
++++
+footer2
+:::
+
+
+::::
+&lt;!-- 
+https://sphinx-design.readthedocs.io/en/latest/grids.html#placing-a-card-in-a-grid --&gt;
+</pre></div>
+</div>
 </section>
-</section>
-<section class="tex2jax_ignore mathjax_ignore" id="id1">
-<h1>Project Grid<a class="headerlink" href="#id1" title="Link to this heading">#</a></h1>
-<!-- this creates a grid with 3 columns -->
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<div class="sd-card-title sd-font-weight-bold docutils">
-Title</div>
-<p class="sd-card-text">body of a plain card</p>
-</div>
-<div class="sd-card-footer docutils">
-<p class="sd-card-text">footer</p>
-</div>
-</div>
-</div>
-<div class="sd-col sd-d-flex-row docutils">
-<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
-<div class="sd-card-body docutils">
-<div class="sd-card-title sd-font-weight-bold docutils">
-Title 2</div>
-<p class="sd-card-text">body 2</p>
-</div>
-<div class="sd-card-footer docutils">
-<p class="sd-card-text">footer2</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- 
-https://sphinx-design.readthedocs.io/en/latest/grids.html#placing-a-card-in-a-grid -->
 </section>
 
 <div class="section ablog__blog_comments">
@@ -450,6 +445,15 @@ https://sphinx-design.readthedocs.io/en/latest/grids.html#placing-a-card-in-a-gr
         <p class="prev-next-title">Formatting</p>
       </div>
     </a>
+    <a class="right-next"
+       href="../host/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Changing Host</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -468,19 +472,10 @@ https://sphinx-design.readthedocs.io/en/latest/grids.html#placing-a-card-in-a-gr
   </div>
   <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Example Formatting</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#main-page">Main page</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#about">About</a></li>
-</ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#about-me">About me</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#subheading-example">subheading example</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#project-grid">Project Grid</a></li>
 </ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Project Grid</a></li>
-</ul>
-
   </nav></div>
 
   <div class="sidebar-secondary-item">
