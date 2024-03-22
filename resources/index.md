@@ -2,21 +2,14 @@
 
 This section contains examples of different types of pages you may want to use.  
 
-
-```{toctree}
-:caption: Resources
-:maxdepth: 2
-
-codespaces
-formatting
-examples
-```
-
-
+(gallery)=
 ## Gallery
 
-::::{card-carousel} 2
+```{hint}
+You can view the source to this page to learn how to add a carousel like this one to your site
+```
 
+::::{card-carousel} 2
 
 :::{card} [Dr. Brown's personal site](https://sarahmbrown.org/)
 this also uses a custom domain and the same extensions
@@ -39,9 +32,22 @@ this also uses a custom domain and the same extensions
 [source](https://github.com/ml4sts/ml4sts.github.io)
 :::
 :::{card} [courseutils](https://compsys-progtools.github.io/courseutils)
-this uses similar extensions, but documents code
+this uses similar extensions, and also documents code
 +++
 [source](https://github.com/compsys-progtools/courseutils)
 :::
 ::::
+
+
+
+```{toctree}
+:caption: Resources
+:maxdepth: 2
+
+codespaces
+formatting
+examples
+host
+advanced
+```
 
