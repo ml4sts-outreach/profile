@@ -103,6 +103,7 @@ myst_enable_extensions = [
     "strikethrough",
     "substitution",
     # "tasklist",
+    "sphinxcontrib.mermaid"
 ]
 
 def setup(app):
