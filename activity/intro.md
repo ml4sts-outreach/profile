@@ -83,17 +83,5 @@ flowchart TD
     host --> |for example| dreamhost & ghp[GitHub pages] & nc[Name Cheap]
 ```
 
-## VS Code orientation
-
-- accept and launch code space (this takes several minutes)
-- it is set up to do a lot for you, 
-- open the port & view your site
-- still private, this is what it will look like
-- note: responsive (adjust screen, inspect)
-
-
-
-We will be using GitHub, which means we will make some commits. 
-
 
 
