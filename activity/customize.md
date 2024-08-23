@@ -11,7 +11,8 @@ These first few steps aree in the the nsbe50workshop Code tour
 
 
 - [commit](https://code.visualstudio.com/docs/sourcecontrol/overview#_commit)
-- sync
+- remember to type a message before clicking commit
+- press the sync
 
 the link above includes videos you can use as reference
 

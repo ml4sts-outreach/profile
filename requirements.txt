@@ -10,3 +10,4 @@ sphinxext-opengraph
 pyyaml
 sphinx-autobuild
 myst-parser
+git+https://github.com/brownsarahm/sphinxcontrib-mermaid@cdnupdate
