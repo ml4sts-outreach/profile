@@ -9,6 +9,7 @@ You can learn more about each:
 ## Tips
 
 - You can only have 2 codespaces active, you can see your active ones at [github.com/codespaces](https://github.com/codespaces)
+- If any say that you have "uncommitted changes" it is important to go in to it and [commit](https://code.visualstudio.com/docs/sourcecontrol/overview#_commit) them. 
 
 ## Behind the Scenes
 

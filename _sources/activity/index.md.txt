@@ -2,7 +2,7 @@
 
 ## Overview
 
-- Welcome
+- Welcome 
 - Why use these tools for a website?
 - Guided Setup of your workshop
 - Open practice/customization
@@ -15,13 +15,13 @@ First, you will need to [create a github account](https://github.com/signup)
 
 
 ```{warning}
-At NBSE50 use the link provided in person.
+At an event use the link provided in person.
 ```
 
-the link to copy the template for the workshop is different during an actual workshop, that gives
+The link to copy the template for the workshop is different during an actual workshop, that gives
 access to a version to provide Dr. Brown and any workshop helpers write permission to your site
 
-Then you need to fork the [template](https://github.com/ml4sts-outreach/template-profile) or **"accept the assignment"** from Dr. Brown. 
+Then you need to create a repo using the [template](https://github.com/ml4sts-outreach/template-profile) or **"accept the assignment"** from Dr. Brown as provided in person. 
 
 ## Outline:
 
