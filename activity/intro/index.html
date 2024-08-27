@@ -410,6 +410,14 @@ document.write(`
 <li><p>GitHub pages is free!</p></li>
 <li><p><strong>very</strong> little of this site is GitHub specific, you can move to a different host pretty easily, with just a little understanding</p></li>
 </ul>
+<p>flowchart TD
+%% u[You] –&gt; |write|
+subgraph repo
+md[Markown Files]
+end
+md –&gt; sp{Sphinx}
+sp –&gt; h[HTML, CSS, Js]
+h–&gt; ghp[GitHub Pages]</p>
 </section>
 </section>
 </section>
